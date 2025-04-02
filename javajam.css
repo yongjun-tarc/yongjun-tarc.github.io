@@ -2,18 +2,19 @@ body {
     background-color:#FCEBB6;
     color:#221511;
     font-family: Verdana, Arial, sans-serif;
-    background-image:url(img/background.gif);
+    background-image:url(background.gif);
 }
 
 header {
     background-color:#D2B48C;
-    background-image: url(img/javajamlogo.jpg);
+    background-image: url(javajamlogo.jpg);
     background-repeat: no-repeat;
-    height: 150px;
+    padding-top: 10px;
 }
 
 h1 {
-    padding-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     padding-left: 220px;
     font-size: 3em;
 }
@@ -59,14 +60,12 @@ nav ul {
 }
 
 main {
-    padding-top: 0;
-    padding-bottom: 2em;
     display: block;
     margin-left: 200px;
     background-color: #FEF6C2;
 }
 
-main h2, main h3, main h4, main p,main div, main ul, main dl {
+main h2,h3,h4,p,div,ul,dl {
     padding-left: 3em;
     padding-right: 2em;
 }
@@ -84,7 +83,7 @@ footer {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #231414;
+    background-color: #231814;
     min-width: 900px;
     max-width: 1280px;
     box-shadow: 3px 3px grey;
@@ -97,33 +96,6 @@ img {
     margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-form {
-    padding: 2em;
-}
-
-label {
-    float: left;
-    display: block;
-    text-align: right;
-    width: 8em;
-    padding-right: 1em;
-}
-
-input, textarea {
-    display: block;
-    margin-bottom: 1em;
-}
-
-#mySubmit {
-    margin-left: 9.5em;
-}
-
-#herojobs {
-    height: 250px;
-    background-image: url(img/herojobs.jpg);
-    background-size: 100% 100%;
 }
 
 .floatleft {
@@ -143,38 +115,19 @@ input, textarea {
 }
 
 #heroroad {
-    background-image: url(img/heroroad.jpg);
+    background-image: url(heroroad.jpg);
     background-size: 100%;
     height: 250px;
 }
 
 #heromugs {
-    background-image: url(img/heromugs.jpg);
+    background-image: url(heromugs.jpg);
     background-size: 100%;
     height: 250px;
 }
 
 #heroguitar {
-    background-image: url(img/heroguitar.jpg);
+    background-image: url(heroguitar.jpg);
     background-size: 100%;
     height: 250px;
-}
-
-table {
-    margin: auto;
-    text-align: center;
-    width: 90%;
-    border-spacing: 0;
-}
-
-th,td {
-    padding: 10px;
-}
-
-td {
-    text-align: start;
-}
-
-tr:nth-of-type(odd) {
-    background-color: #D2B48E;
 }
