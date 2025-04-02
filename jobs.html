@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>JavaJam Coffee House Jobs</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="javajam.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1 title="This is a h1 text" style="font: size 200px;">JavaJam Coffee House</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div id="herojobs"></div>
+                <h2>Jobs at JavaJam</h2>
+                <p>Want to work at JavaJam? Fill out the form
+                    below to start yourapplication. <br>
+                    Required fields are marked with an asterisk (*).
+                </p>
+                <form method="post" action="http://webdevbasics.net/scripts/javajam8.php.">
+                    <label for="name">*Name:</label> 
+                    <input type="text" id="name" name="myName" required>
+                    <label for="email">*E-mail:</label> 
+                    <input type="email" id="email" name="myEmail" required>
+                    <label for="exp">*Experience:</label> 
+                    <textarea id="exp" name="myExperience" rows="2" cols="20" required></textarea>
+                    <input type="submit" value="Apply Now" id="mySubmit">
+                </form>
+            </main>
+            <footer>
+                <small><i>
+                    Copyright &copy; 2018 JavaJam Coffee House <br> 
+                    <a href ="yjwong-wp24@student.tarc.edu.my">yjwong-wp24@student.tarc.edu.my</a>
+                </i></small>
+            </footer>
+        </div>
+    </body>
+</html>
